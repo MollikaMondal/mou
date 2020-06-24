@@ -1,0 +1,176 @@
+.header {
+background-image: url(back.jpg); 
+background-repeat:no-repeat;
+background-size: cover;
+width:100%; height:100vh; 
+
+padding:128px 16px;
+
+}
+.first1{
+  font-size: 20px;
+  color: white;
+
+}
+.second{
+  font-size: 20px;
+  color: white;
+  
+}
+.Third{
+  background-color: #00b894;
+  cursor: pointer;
+   color: white;
+   height: 45px;
+   width: 130px;
+font-size:18px; 
+border-radius: 20px;
+
+}
+.Third:hover{
+  background-color: gray;
+
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color:gray;
+  position: fixed;
+  box-shadow:0 2px 3px 0 rgba(0,0,0,.1);
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{
+  background-color: white;
+  color: #000;
+   
+}
+#lin{
+  background-color: #00b894;
+  color: black;
+
+}
+.navbar a#lin:hover{
+background-color:gray;
+}
+  
+}
+.section
+{
+width:inherit;
+height:1500px;
+
+}
+.section1
+{
+width:inherit;
+height:300px;
+background:white;
+}
+.aside1
+{
+height:inherit;
+width:570px;
+margin:0px 0px 0px 130px;
+float:left;
+}
+.aside2 img
+{
+margin:30px 0px 0px 10px;
+height:240px;
+width:520px;
+}
+.aside2
+{
+width:470px;
+height:inherit;
+background-size:100% 100%;
+float:left;
+
+}
+.section3
+{
+width:inherit;
+height:300px;
+background-color: #f1f1f1;
+
+}
+.aside3 img
+{
+margin:30px 0px 0px 130px;
+padding: 0px 0px
+height:500px;
+width:400px;
+float:left;
+}
+.aside4
+{
+width:570px;
+height:inherit;
+background-size:100% 100%;
+float:left;
+padding: 20px 90px;
+}
+.middlebar
+{
+grid-area:middlebar;
+height:400px;
+background:rgba(0,0,0,0.2);
+text-align: center;
+
+}
+.mid{
+
+text-align:center;
+padding: 10px;
+font-size:25px;
+
+}
+img.src{
+  height: 200px;
+  width:29px;
+}
+.footer
+{
+width:inherit;
+height:160px;
+background:white;
+margin: 10px;
+clear: both;
+text-align: center;
+padding: 15px;
+font-size: 50px;
+
+}
+.facebook
+{
+  padding: 0px;
+  width: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.facebook:hover{
+  opacity: 0.7;
+}
+.facebook{
+  color:white;
+}
+.ftr{
+  font-size: 14px;
+  padding: 25px;
+  margin: 0px;
+}
+

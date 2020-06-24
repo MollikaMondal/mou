@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(ima.jpg);
+	background-size: cover;
+
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 350px;
+	height: 450px;
+	background: black;
+	color: red;
+	top:10%;
+	left:40%;
+	position:absolute;
+	transform:translate(-40%-40%);
+	box-sizing: border-box; 
+	padding: 10px 20px;
+	opacity: .9;
+}
+.loginbox input[type="submit"]:hover
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+    font-size: 22px;
+	border-radius: 20px;
+}
